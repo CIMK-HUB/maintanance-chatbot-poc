@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "maintenance-chatbot-poc"
+version = "0.1.0"
+description = ""
+authors = ["Eliyahu Kainyah Yalley <kofiyalley16@gmail.com>"]
+readme = "README.md"
+packages = [{include = "maintenance_chatbot_poc"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+streamlit-chat = "^0.1.1"
+python-dotenv = "^1.0.1"
+langchain-openai = "^0.1.20"
+langchain = "^0.2.12"
+pypdf = "^4.3.1"
+pymupdf = "^1.24.9"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
