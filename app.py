@@ -68,9 +68,13 @@ sensor_data = read_files("data/Realistic_Pt100_Sensor_Data.txt")
 def main():
     st.set_page_config(page_title="Maintenance Chatbot", layout="centered")
     st.title("Maintenance Chatbot")
+    
+    # Sidebar for mode with a callback to clear message
+    def clear_chat():
+        st.session_state.message = []
 
     # Sidebar for mode selection
-    mode = st.sidebar.selectbox("Select Mode", ["LLM", "LLM with context", "LLM with context and AI agents"])
+    mode = st.sidebar.selectbox("Select Mode", ["LLM", "LLM with context", "LLM with context and AI agents"], on_change=clear_chat)
 
     if "message" not in st.session_state:
         st.session_state.message = []
