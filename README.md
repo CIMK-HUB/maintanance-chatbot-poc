@@ -23,8 +23,8 @@ This project is a Streamlit-based chatbot designed to assist with maintenance qu
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/yourusername/maintenance-chatbot.git
-    cd maintenance-chatbot
+    git clone git@github.com:CIMK-HUB/maintanance-chatbot-poc.git
+    cd maintenance-chatbot-poc
     ```
 
 2. **Install dependencies**:
