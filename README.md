@@ -1,7 +1,7 @@
 
 # Maintenance Chatbot
 
-This project is a Streamlit-based chatbot designed to assist with maintenance questions for industrial products. The chatbot leverages OpenAI's language model to provide structured and accurate answers based on provided maintenance documents and sensor data.
+This project is a Streamlit-based chatbot designed to assist with maintenance questions for industrial products. The chatbot leverages DeepSeek OpenAI's language model to provide structured and accurate answers based on provided maintenance documents and sensor data.
 
 ## Features
 
